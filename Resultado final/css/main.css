@@ -1,0 +1,143 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    background-image: url(../img/bradcam.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+}
+
+header #menu{
+    padding: 50px 0;
+}
+
+header #menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+header #menu ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+header #menu ul li a{
+    display: inline-block;
+}
+
+header #menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header #menu ul li a:hover{
+    text-decoration: underline;
+}
+
+header #menu ul #logo{
+    margin-right: 40%;
+    margin-left: 100px;
+}
+
+
+/***************************/
+#main-container header main{
+    margin: 0 auto;
+    width: 1400px;
+}
+#main-container header main div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container header main .text h1{   
+    font-size: 80px;
+}
+
+#main-container header main .text p{   
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+button{
+    background: #24d9e6;
+    border: 0;
+    border-radius:  3px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px 0;
+}
+
+button:hover{
+    background: #14929b;
+}
+
+#main-container header main .image{   
+    text-align: right;
+    width: 700px;
+}
+
+
+/********************************************/
+
+
+.layout{
+    width: 1280px;
+    margin: 250px auto;
+}
+
+#main-container .section .layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container .section .layout h3{
+    font-size: 48px;
+    padding: 25px 0;
+}
+
+#main-container .section .layout p{
+    padding: 25px 0;
+    line-height: 32px;
+}
+
+#main-container .section .layout-left .text{
+    width: 500px;
+}
+
+#main-container .section .layout-left .image{
+    width: 770px;
+    text-align: right;
+}
+
+#main-container .section .layout-right .text{
+    width: 500px;
+}
+
+#main-container .section .layout-right .image{
+    width: 770px;
+    text-align: center;
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 150px 20px;
+    text-align: center;
+}
